@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/ReactProjects/BOShershen_sneaker_store/static/css/main.3147ff47.css",
-    "main.js": "/ReactProjects/BOShershen_sneaker_store/static/js/main.6fd67a7a.js",
-    "index.html": "/ReactProjects/BOShershen_sneaker_store/index.html",
-    "main.3147ff47.css.map": "/ReactProjects/BOShershen_sneaker_store/static/css/main.3147ff47.css.map",
-    "main.6fd67a7a.js.map": "/ReactProjects/BOShershen_sneaker_store/static/js/main.6fd67a7a.js.map"
+    "main.css": "/ReactProjects/boshershen-sneaker-store/static/css/main.3147ff47.css",
+    "main.js": "/ReactProjects/boshershen-sneaker-store/static/js/main.6fd67a7a.js",
+    "index.html": "/ReactProjects/boshershen-sneaker-store/index.html",
+    "main.3147ff47.css.map": "/ReactProjects/boshershen-sneaker-store/static/css/main.3147ff47.css.map",
+    "main.6fd67a7a.js.map": "/ReactProjects/boshershen-sneaker-store/static/js/main.6fd67a7a.js.map"
   },
   "entrypoints": [
     "static/css/main.3147ff47.css",
