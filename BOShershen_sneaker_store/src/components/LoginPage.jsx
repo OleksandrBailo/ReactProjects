@@ -51,7 +51,7 @@ const LoginPage = () => {
         {isRegistering ? "Already have an account?" : "Create new account"}
       </button>
       {error && <p style={{ color: "red" }}>{error}</p>}
-      Admin name for testing: Oleksandr
+      <div>Admin name for testing: Oleksandr</div>
     </div>
   );
 };
