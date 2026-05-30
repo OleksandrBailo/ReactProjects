@@ -1,0 +1,117 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.inHeader {
+  position: relative;
+  padding-inline: 100px;
+  height: 58px;
+  background-color: #1d1d1d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Poppins";
+  font-size: 1rem;
+}
+
+.logo img {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.navHeader {
+  display: flex;
+  color: #ffffff;
+  justify-content: space-between;
+  width: 564px;
+  font-weight: 600;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+.navItem {
+  text-wrap: nowrap;
+}
+
+.searchAndIcons {
+  font-weight: 500;
+  height: 100%;
+  color: #b0b0b0;
+  display: flex;
+  gap: 25px;
+}
+
+.searchBox {
+  display: flex;
+  width: 183px;
+  border-bottom: 2px solid;
+}
+
+.searchBox #searchInput {
+  width: 160px;
+  padding: 0;
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  font-family: "Poppins";
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.searchBox #searchInput::placeholder {
+  color: #b0b0b0;
+  font-family: "Poppins";
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+.aboveSearchBox,
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.icon a {
+  height: 16px;
+  position: relative;
+}
+
+.icon img {
+  width: 16px;
+  height: 16px;
+}
+
+.icon .qntInBag {
+  display: none;
+  background-color: red;
+  color: #ffffff;
+  font-size: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+}
+
+.LogInOut {
+  display: flex;
+  align-items: center;
+}
